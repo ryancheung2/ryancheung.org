@@ -1,0 +1,31 @@
+h1 {
+    text-align:center;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+.extensionName{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.buttons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    width: 15%;
+    padding: 15px;
+    margin: 5px auto; 
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+

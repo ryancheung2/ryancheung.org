@@ -1,1 +1,24 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+}
 
+.buttons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
+    width: 15%;
+    padding:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    height: auto;
+    background-color:white;
+    border-radius:8px;
+}
+
+.buttons:hover{
+    background-color:#f1f1f1;
+    cursor: pointer;
+}
