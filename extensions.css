@@ -15,17 +15,39 @@ p{
     font-family: sans-serif;
 }
 
-.buttons {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column; 
-    text-align: center;
-    width: 15%;
-    padding: 15px;
-    margin: 5px auto; 
-    height: auto;
-    background-color: white;
-    border-radius: 8px;
+.button-container {
+    text-align: center; 
 }
 
+.buttons {
+    display: inline-block;
+    width: 15%;
+    padding: 15px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #473335;
+}
+
+.buttons:hover{
+    background-color:#f1f1f1;
+    cursor:pointer;
+}
+
+.back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #473335;
+}
+
+.back:hover{
+    background-color:#f1f1f1;
+    cursor:pointer;
+}

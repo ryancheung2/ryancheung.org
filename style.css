@@ -16,6 +16,8 @@ h1{
     height: auto;
     background-color:white;
     border-radius:8px;
+    border-style: solid;
+    border-color: #473335;
 }
 
 .buttons:hover{
