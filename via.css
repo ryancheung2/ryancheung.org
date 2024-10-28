@@ -1,0 +1,23 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 25px;
+}
+
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.strength{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
