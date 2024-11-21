@@ -21,11 +21,52 @@ section {
     text-align: center;
 }
 
+/* Updated Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 50% of the viewport height */
+    background: #fff; /* Match the rest of the page background */
+    text-align: center;
+    padding: 40px;
+}
+
+.intro-content {
+    max-width: 800px;
+    padding: 20px;
+    background: #eef9f4; /* Light green inside the box */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #2c3e50; /* Darker text for contrast */
+}
+
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #2c3e50; /* Darker text for readability */
+}
+
+.intro strong {
+    font-weight: 600;
+    color: #4CAF50; /* Highlighted numbers in green */
+}
+
+/* Features Section */
 .content-section {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
+    padding: 60px 20px; /* Add padding for consistency */
 }
 
 .features-list {
@@ -43,16 +84,6 @@ section {
     opacity: 0;
     transform: translateX(0); /* Default, overridden by classes */
     transition: all 0.6s ease-out;
-}
-
-/* Intro Section Styling */
-.intro {
-    background: #4CAF50; /* Darker green for contrast */
-    color: #fff;
-    padding: 60px 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 /* Animations */
